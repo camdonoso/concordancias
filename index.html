@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+        <title>Concordancia frases</title>
+        <link rel="stylesheet" href="css/style.css" defer>
+        <link rel="stylesheet" href="css/bootstrap.min.css" defer>
+        <link rel="stylesheet" href="libs/fontawesome/css/all.min.css" defer>
+    </head>
+    <body>
+        <div class="container-fluid" id="main">
+            <div class="row">
+                <div class="col central">
+                    <p class="instrucciones">Devuelve cada una de las palabras con comilla doble <b>" " </b>y corchetes <b>[ ]</b></p>
+                    <p class="instrucciones">Ingresar una palabra por linea</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col central">
+                    <textarea id="listadoInicial" placeholder="Listado inicial"></textarea>
+                    <button id="convertir" type="button" class="btn btn-outline-secondary convertir">Convertir <i class="fas fa-angle-double-right"></i></button>
+                    <textarea id="listadoFinal" placeholder="Listado con concordancias"></textarea>
+                    <button id="copiar" type="button" class="btn btn-outline-secondary copiar">Copiar <i class="fas fa-copy"></i></button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
